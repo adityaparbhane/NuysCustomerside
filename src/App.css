@@ -1,0 +1,84 @@
+.active {
+  color:white;
+  background-color: #FEBD11;
+}
+
+
+.paginationBttns {
+  width: 97%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+}
+
+.paginationBttns a {
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid #FEBD11;
+  color: #FEBD11;
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: #FEBD11;
+}
+
+.paginationActive a {
+  color: white;
+  background-color: #FEBD11;
+}
+
+.paginationDisabled a {
+color: white;
+ border:gray;
+  background-color: grey;
+}
+.pagi{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-right: 0px;
+
+}
+/* .slick-next{
+  right: 0px !important;
+} */
+
+@media screen and (max-width: 480px) {
+
+  .paginationBttns a {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid #FEBD11;
+    color: #FEBD11;
+    cursor: pointer;
+  }
+  .paginationDisabled a {
+    color: white;
+     border:gray;
+      background-color: grey;
+    }
+
+}
+
+.xyz:hover .place{
+
+  opacity: 100px;
+}
+
+.MuiBackdrop-root{
+  background-color: transparent !important;
+ }
+ 
+ .MuiPaper-root{
+   box-shadow:   0px 9px 5px 8px rgb(0 0 0 / 2%) !important;
+ }
+

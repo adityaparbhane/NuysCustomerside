@@ -1,0 +1,118 @@
+
+// import Button from "@mui/material/Button";
+// import TextField from "@mui/material/TextField";
+// import Dialog from "@mui/material/Dialog";
+// import DialogActions from "@mui/material/DialogActions";
+// import DialogContent from "@mui/material/DialogContent";
+// import DialogContentText from "@mui/material/DialogContentText";
+// import DialogTitle from "@mui/material/DialogTitle";
+
+
+
+
+
+
+
+
+
+ {/* <button
+                  className="absolute top-[0px] text-white text-md right-0 font-bold h-full w-full overflow-hidden  bg-[rgba(0,0,0,0.6)] opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                  onClick={() => handleClickOpen(title)}
+                >
+                  {" "}
+                  PLACE ORDER NOW
+                </button> */}
+
+
+
+ {/* <Dialog open={open} onClose={handleClose}>
+              <DialogTitle className="text-light-500  text-center">
+                PLACE ORDER NOW
+              </DialogTitle>
+              <DialogContent>
+                <DialogContentText>
+                  For order food please fill up these details Which is given
+                  below
+                </DialogContentText>
+                {!validateFormName && (
+                  <p className="text-red-600">Please Enter full name</p>
+                )}
+
+                <TextField
+                  autoFocus
+                  margin="dense"
+                  // id="name"
+                  label="Full Name"
+                  fullWidth
+                  // variant="standard"
+                  type="text"
+                  name="from_name"
+                  placeholder="Enter Your Name"
+                  value={toSend.from_name}
+                  onChange={handleChange}
+                  required
+                />
+
+                <TextField
+                  autoFocus
+                  margin="dense"
+                  // id="name"
+                  label="Product Name"
+                  fullWidth
+                  //   variant="standard"
+                  type="text"
+                  name="to_name"
+                  placeholder="Enter Product Name"
+                  value={toSend.to_name}
+                  onChange={handleChange}
+                  disabled
+                  required
+                />
+                {!validateFormMassage && (
+                  <p className="text-red-600">Please Enter quantity</p>
+                )}
+                <TextField
+                  autoFocus
+                  margin="dense"
+                  // id="name"
+                  label="Quantity"
+                  fullWidth
+                  //   variant="standard"
+                  type="number"
+                  name="message"
+                  placeholder="Enter Quantity"
+                  value={toSend.message}
+                  onChange={handleChange}
+                  required
+                />
+                {!validateFormReplyTo && (
+                  <p className="text-red-600">Please Enter your address</p>
+                )}
+                <TextField
+                  autoFocus
+                  margin="dense"
+                  // id="name"
+                  label="Delivery Address With pin code"
+                  fullWidth
+                  //   variant="standard"
+                  type="text"
+                  name="reply_to"
+                  placeholder="Enter Your Delivery Address With pin code"
+                  value={toSend.reply_to}
+                  onChange={handleChange}
+                  required
+                />
+              </DialogContent>
+              <DialogActions>
+                <Button onClick={handleClose}>Cancel</Button>
+                <Button variant="contained" color="success" onClick={onSubmit}>
+                  Place Order
+                </Button>
+              </DialogActions>
+            </Dialog> */}
+
+
+                
+                   {/* <Popup className="z-10" trigger={buttonPopup === index} setTrigger={setButtonPopup}>
+                            <Form />
+                        </Popup> */}

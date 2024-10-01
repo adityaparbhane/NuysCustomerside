@@ -1,0 +1,24 @@
+
+[
+    {
+        "title": "xyz",
+        "category": "Confectionery & Gum based product" ,
+        "image": "/Image/Dairy Product.png"
+    },
+    {
+        "title": "xyz",
+        "category": "Pharmaceutical" ,
+        "image": "/Image/Beverages.png"
+    },
+    {
+        "title": "xyz",
+        "category": "Beverages" ,
+        "image": "/Image/Confectionery.jpg"
+    },
+    {
+        "title": "xyz",
+        "category": "Fruit juices other Fruit based Beverages" ,
+        "image": "/Image/Dairy Product.png"
+    }
+ 
+]

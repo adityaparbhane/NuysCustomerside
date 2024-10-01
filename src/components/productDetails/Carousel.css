@@ -1,0 +1,34 @@
+/* Carousel.css */
+
+.slider-box {
+    position: relative;
+}
+
+/* .main-slide-carousel img {
+    width: 100%;
+    height: auto;
+} */
+
+.nav-for-slider {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.thumbnails .thumbs-slide {
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.thumbnails .thumbs-slide img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.thumbnails .thumbs-slide.active {
+    border-color: #FED815;
+}

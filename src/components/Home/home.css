@@ -1,0 +1,13 @@
+
+.parallax-image {
+    background-image: url('/public/eyeimage/home/slides/NewArrivalDesktop.webp');
+    height:400px;
+    width: 100%;
+    /* top: 10; */
+    background-attachment:fixed ;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* position: absolute; */
+  }
+  
